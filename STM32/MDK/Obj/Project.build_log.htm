@@ -1,0 +1,166 @@
+<html>
+<body>
+<pre>
+<h1>µVision Build Log</h1>
+<h2>Tool Versions:</h2>
+IDE-Version: ¦ÌVision V5.24.2.0
+Copyright (C) 2017 ARM Ltd and ARM Germany GmbH. All rights reserved.
+License Information: 1 63001, 11, LIC=----
+ 
+Tool Versions:
+Toolchain:       MDK-Lite  Version: 5.24.1
+Toolchain Path:  C:\Keil_v5\ARM\ARMCC\Bin
+C Compiler:      Armcc.exe V5.06 update 5 (build 528)
+Assembler:       Armasm.exe V5.06 update 5 (build 528)
+Linker/Locator:  ArmLink.exe V5.06 update 5 (build 528)
+Library Manager: ArmAr.exe V5.06 update 5 (build 528)
+Hex Converter:   FromElf.exe V5.06 update 5 (build 528)
+CPU DLL:         SARMCM3.DLL V5.24.1
+Dialog DLL:      DCM.DLL V1.16.0.0
+Target DLL:      CMSIS_AGDI.dll V1.28.3.0
+Dialog DLL:      TCM.DLL V1.32.0.0
+ 
+<h2>Project:</h2>
+C:\Users\63001\Desktop\³ÌÐò\STM32\MDK\Project.uvprojx
+Project File Date:  08/27/2019
+
+<h2>Output:</h2>
+*** Using Compiler 'V5.06 update 5 (build 528)', folder: 'C:\Keil_v5\ARM\ARMCC\Bin'
+Build target 'Project'
+compiling delay.c...
+..\Source\Drive\delay.c(34): warning:  #68-D: integer conversion resulted in a change of sign
+    NVIC_InitStructure.NVIC_IRQChannel = SysTick_IRQn;
+..\Source\Drive\delay.c: 1 warning, 0 errors
+compiling IOI2C.c...
+compiling Main.c...
+..\Source\APP\Main.c(270): warning:  #167-D: argument of type "char *" is incompatible with parameter of type "u8 *"
+  		OLED_ShowString(0,0,strx);
+..\Source\APP\Main.c(271): warning:  #167-D: argument of type "char *" is incompatible with parameter of type "u8 *"
+  		OLED_ShowString(0,2,stry);
+..\Source\APP\Main.c(272): warning:  #167-D: argument of type "char *" is incompatible with parameter of type "u8 *"
+  		OLED_ShowString(0,4,receive_x);
+..\Source\APP\Main.c(273): warning:  #167-D: argument of type "char *" is incompatible with parameter of type "u8 *"
+  		OLED_ShowString(0,6,receive_y);
+..\Source\APP\Main.c(72): warning:  #177-D: variable "ten"  was declared but never referenced
+  	u8 ten,t;
+..\Source\APP\Main.c(74): warning:  #177-D: variable "i"  was declared but never referenced
+  	unsigned char len,i;
+..\Source\APP\Main.c(75): warning:  #550-D: variable "z"  was set but never used
+  	int z,receive[5],key=0;
+..\Source\APP\Main.c(75): warning:  #177-D: variable "receive"  was declared but never referenced
+  	int z,receive[5],key=0;
+..\Source\APP\Main.c(77): warning:  #177-D: variable "expect_angle_x"  was declared but never referenced
+  	float angle_x,expect_angle_x,angle_y,x_expect,y_expect,angle_x_real,angle_y_expect,angle_y_real,angle_x_expect;
+..\Source\APP\Main.c(79): warning:  #177-D: variable "angle_P_x"  was declared but never referenced
+  	float angle_P_x,angle_sum_x,angle_sum_y,sum_x,sum_y,sum_error_x,sum_error_y,Kp,Ki;
+..\Source\APP\Main.c(79): warning:  #177-D: variable "sum_x"  was declared but never referenced
+  	float angle_P_x,angle_sum_x,angle_sum_y,sum_x,sum_y,sum_error_x,sum_error_y,Kp,Ki;
+..\Source\APP\Main.c(79): warning:  #177-D: variable "sum_y"  was declared but never referenced
+  	float angle_P_x,angle_sum_x,angle_sum_y,sum_x,sum_y,sum_error_x,sum_error_y,Kp,Ki;
+..\Source\APP\Main.c(80): warning:  #177-D: variable "x_old"  was declared but never referenced
+  	float x_old,y_old,x_decrease,y_decrease,x_decrease_old,y_decrease_old;
+..\Source\APP\Main.c(80): warning:  #177-D: variable "y_old"  was declared but never referenced
+  	float x_old,y_old,x_decrease,y_decrease,x_decrease_old,y_decrease_old;
+..\Source\APP\Main.c(80): warning:  #177-D: variable "x_decrease"  was declared but never referenced
+  	float x_old,y_old,x_decrease,y_decrease,x_decrease_old,y_decrease_old;
+..\Source\APP\Main.c(80): warning:  #177-D: variable "y_decrease"  was declared but never referenced
+  	float x_old,y_old,x_decrease,y_decrease,x_decrease_old,y_decrease_old;
+..\Source\APP\Main.c(80): warning:  #177-D: variable "x_decrease_old"  was declared but never referenced
+  	float x_old,y_old,x_decrease,y_decrease,x_decrease_old,y_decrease_old;
+..\Source\APP\Main.c(80): warning:  #177-D: variable "y_decrease_old"  was declared but never referenced
+  	float x_old,y_old,x_decrease,y_decrease,x_decrease_old,y_decrease_old;
+..\Source\APP\Main.c(81): warning:  #177-D: variable "x_old_old"  was declared but never referenced
+  	int x_old_old,y_old_old;
+..\Source\APP\Main.c(81): warning:  #177-D: variable "y_old_old"  was declared but never referenced
+  	int x_old_old,y_old_old;
+..\Source\APP\Main.c(82): warning:  #177-D: variable "x1"  was declared but never referenced
+  	int x1,x2,y1,y2;
+..\Source\APP\Main.c(82): warning:  #177-D: variable "x2"  was declared but never referenced
+  	int x1,x2,y1,y2;
+..\Source\APP\Main.c(82): warning:  #177-D: variable "y1"  was declared but never referenced
+  	int x1,x2,y1,y2;
+..\Source\APP\Main.c(82): warning:  #177-D: variable "y2"  was declared but never referenced
+  	int x1,x2,y1,y2;
+..\Source\APP\Main.c(83): warning:  #177-D: variable "unuse"  was declared but never referenced
+  	float unuse=0,unuse1=0;
+..\Source\APP\Main.c(83): warning:  #177-D: variable "unuse1"  was declared but never referenced
+  	float unuse=0,unuse1=0;
+..\Source\APP\Main.c: 26 warnings, 0 errors
+compiling DIO.c...
+compiling UART2.c...
+compiling oled.c...
+compiling sys.c...
+compiling moto.c...
+compiling tim3.c...
+compiling hongwai.c...
+compiling usart.c...
+compiling Queue.c...
+..\Source\Public\stdint.h(12): warning:  #47-D: incompatible redefinition of macro "__ARMCLIB_VERSION"  (declared at line 22 of "C:\Keil_v5\ARM\ARMCC\Bin\..\include\string.h")
+  #define __ARMCLIB_VERSION 5030076
+..\Source\Public\Queue.c: 1 warning, 0 errors
+compiling steering.c...
+compiling system_stm32f10x.c...
+compiling misc.c...
+compiling stm32f10x_adc.c...
+compiling stm32f10x_can.c...
+compiling stm32f10x_dac.c...
+compiling stm32f10x_dma.c...
+compiling stm32f10x_exti.c...
+compiling stm32f10x_flash.c...
+compiling stm32f10x_gpio.c...
+compiling stm32f10x_iwdg.c...
+compiling stm32f10x_rcc.c...
+compiling stm32f10x_spi.c...
+compiling stm32f10x_tim.c...
+compiling stm32f10x_usart.c...
+compiling stm32f10x_it.c...
+assembling startup_stm32f10x_hd.s...
+compiling stm32f10x_fsmc.c...
+compiling stm32f10x_i2c.c...
+compiling stm32f10x_rtc.c...
+compiling stm32f10x_pwr.c...
+compiling stm32f10x_bkp.c...
+compiling usb_desc.c...
+compiling hw_config.c...
+compiling usb_endp.c...
+compiling usb_it.c...
+compiling usb_istr.c...
+compiling usb_prop.c...
+compiling usb_pwr.c...
+compiling usb_core.c...
+compiling usb_init.c...
+compiling usb_int.c...
+compiling usb_mem.c...
+compiling usb_regs.c...
+compiling usb_sil.c...
+linking...
+.\Obj\Project.axf: error: L6047U: The size of this image (33504 bytes) exceeds the maximum allowed for this version of the linker
+Finished: 0 information, 0 warning, 0 error and 1 fatal error messages.
+".\Obj\Project.axf" - 1 Error(s), 28 Warning(s).
+
+<h2>Software Packages used:</h2>
+
+Package Vendor: ARM
+                http://www.keil.com/pack/ARM.CMSIS.5.0.1.pack
+                ARM.CMSIS.5.0.1
+                CMSIS (Cortex Microcontroller Software Interface Standard)
+   * Component: CORE Version: 5.0.1
+
+Package Vendor: Keil
+                http://www.keil.com/pack/Keil.STM32F1xx_DFP.2.3.0.pack
+                Keil.STM32F1xx_DFP.2.3.0
+                STMicroelectronics STM32F1 Series Device Support, Drivers and Examples
+
+<h2>Collection of Component include folders:</h2>
+  .\RTE\_Project
+  C:\Keil_v5\ARM\PACK\ARM\CMSIS\5.0.1\CMSIS\Include
+  C:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.3.0\Device\Include
+
+<h2>Collection of Component Files used:</h2>
+
+   * Component: ARM::CMSIS:CORE:5.0.1
+Target not created.
+Build Time Elapsed:  00:00:31
+</pre>
+</body>
+</html>

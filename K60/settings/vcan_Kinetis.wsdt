@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="iso-8859-1"?>
+
+<Workspace>
+  <ConfigDictionary>
+    
+  <CurrentConfigs><Project>vcan_Kinetis/DZ10_Debug</Project></CurrentConfigs></ConfigDictionary>
+  <Desktop>
+    <Static>
+      <Workspace>
+        <ColumnWidths>
+          
+          
+          
+          
+        <Column0>162</Column0><Column1>27</Column1><Column2>27</Column2><Column3>27</Column3></ColumnWidths>
+      </Workspace>
+      <Build>
+        
+        
+        
+        
+      <ColumnWidth0>20</ColumnWidth0><ColumnWidth1>980</ColumnWidth1><ColumnWidth2>261</ColumnWidth2><ColumnWidth3>65</ColumnWidth3></Build>
+      <Debug-Log>
+        
+        
+      <ColumnWidth0>20</ColumnWidth0><ColumnWidth1>1307</ColumnWidth1></Debug-Log>
+    <TerminalIO/></Static>
+    <Windows>
+      
+      
+    <Wnd0>
+        <Tabs>
+          <Tab>
+            <Identity>TabID-271-3065</Identity>
+            <TabName>Workspace</TabName>
+            <Factory>Workspace</Factory>
+            <Session>
+              
+            <NodeDict><ExpandedNode>vcan_Kinetis</ExpandedNode><ExpandedNode>vcan_Kinetis/App</ExpandedNode><ExpandedNode>vcan_Kinetis/Board</ExpandedNode><ExpandedNode>vcan_Kinetis/Board/VCAN_computer.c</ExpandedNode><ExpandedNode>vcan_Kinetis/Board/VCAN_computer.c/Output</ExpandedNode></NodeDict></Session>
+          </Tab>
+        </Tabs>
+        
+      <SelectedTab>0</SelectedTab></Wnd0><Wnd1>
+        <Tabs>
+          <Tab>
+            <Identity>TabID-4516-3395</Identity>
+            <TabName>Build</TabName>
+            <Factory>Build</Factory>
+            <Session/>
+          </Tab>
+          <Tab>
+            <Identity>TabID-22584-8378</Identity>
+            <TabName>Debug Log</TabName>
+            <Factory>Debug-Log</Factory>
+            <Session/>
+          </Tab>
+        </Tabs>
+        
+      <SelectedTab>0</SelectedTab></Wnd1></Windows>
+    <Editor>
+      
+      
+      
+      
+    <Pane><Tab><Factory>TextEditor</Factory><Filename>$WS_DIR$\Board\src\VCAN_LCD.c</Filename><XPos>0</XPos><YPos>21</YPos><SelStart>445</SelStart><SelEnd>445</SelEnd></Tab><Tab><Factory>TextEditor</Factory><Filename>$WS_DIR$\Board\Inc\VCAN_LCD_CH.h</Filename><XPos>0</XPos><YPos>0</YPos><SelStart>840</SelStart><SelEnd>840</SelEnd></Tab><Tab><Factory>TextEditor</Factory><Filename>$WS_DIR$\Chip\inc\MK60_gpio_cfg.h</Filename><XPos>0</XPos><YPos>238</YPos><SelStart>9240</SelStart><SelEnd>9245</SelEnd></Tab><Tab><Factory>TextEditor</Factory><Filename>$WS_DIR$\Chip\src\MK60_dma.c</Filename><XPos>0</XPos><YPos>60</YPos><SelStart>2675</SelStart><SelEnd>2675</SelEnd></Tab><Tab><Factory>TextEditor</Factory><Filename>$WS_DIR$\App\MK60_it.c</Filename><XPos>0</XPos><YPos>0</YPos><SelStart>356</SelStart><SelEnd>356</SelEnd></Tab><Tab><Factory>TextEditor</Factory><Filename>$WS_DIR$\App\Inc\PORT_cfg.h</Filename><XPos>0</XPos><YPos>3</YPos><SelStart>329</SelStart><SelEnd>329</SelEnd></Tab><Tab><Factory>TextEditor</Factory><Filename>$WS_DIR$\Board\src\VCAN_ASCII.c</Filename><XPos>0</XPos><YPos>0</YPos><SelStart>0</SelStart><SelEnd>0</SelEnd></Tab><Tab><Factory>TextEditor</Factory><Filename>$WS_DIR$\Board\src\VCAN_BMP.c</Filename><XPos>0</XPos><YPos>0</YPos><SelStart>0</SelStart><SelEnd>0</SelEnd></Tab><Tab><Factory>TextEditor</Factory><Filename>$WS_DIR$\Board\src\VCAN_UI_VAR.c</Filename><XPos>0</XPos><YPos>0</YPos><SelStart>0</SelStart><SelEnd>0</SelEnd></Tab><Tab><Factory>TextEditor</Factory><Filename>$WS_DIR$\Board\src\VCAN_TSL1401.c</Filename><XPos>0</XPos><YPos>0</YPos><SelStart>0</SelStart><SelEnd>0</SelEnd></Tab><Tab><Factory>TextEditor</Factory><Filename>$WS_DIR$\Board\src\Vcan_touch.c</Filename><XPos>0</XPos><YPos>0</YPos><SelStart>0</SelStart><SelEnd>0</SelEnd></Tab><Tab><Factory>TextEditor</Factory><Filename>$WS_DIR$\Board\src\vcan_sd_app.c</Filename><XPos>0</XPos><YPos>0</YPos><SelStart>415</SelStart><SelEnd>415</SelEnd></Tab><Tab><Factory>TextEditor</Factory><Filename>$WS_DIR$\Board\src\VCAN_RTC_count.C</Filename><XPos>0</XPos><YPos>0</YPos><SelStart>0</SelStart><SelEnd>0</SelEnd></Tab><Tab><Factory>TextEditor</Factory><Filename>$WS_DIR$\Board\src\VCAN_OV7725_Wolf.c</Filename><XPos>0</XPos><YPos>0</YPos><SelStart>0</SelStart><SelEnd>0</SelEnd></Tab><Tab><Factory>TextEditor</Factory><Filename>$WS_DIR$\Board\Inc\VCAN_LCD_ILI9341.h</Filename><XPos>0</XPos><YPos>16</YPos><SelStart>655</SelStart><SelEnd>668</SelEnd></Tab><Tab><Factory>TextEditor</Factory><Filename>$WS_DIR$\Board\src\VCAN_LCD_ILI9341.c</Filename><XPos>0</XPos><YPos>25</YPos><SelStart>703</SelStart><SelEnd>703</SelEnd></Tab><Tab><Factory>TextEditor</Factory><Filename>$WS_DIR$\Chip\src\MK60_port.c</Filename><XPos>0</XPos><YPos>27</YPos><SelStart>1423</SelStart><SelEnd>1423</SelEnd></Tab><Tab><Factory>TextEditor</Factory><Filename>$WS_DIR$\Board\Inc\VCAN_SCCB.h</Filename><XPos>0</XPos><YPos>27</YPos><SelStart>453</SelStart><SelEnd>453</SelEnd></Tab><Tab><Factory>TextEditor</Factory><Filename>$WS_DIR$\Chip\src\misc.c</Filename><XPos>0</XPos><YPos>60</YPos><SelStart>942</SelStart><SelEnd>942</SelEnd></Tab><Tab><Factory>TextEditor</Factory><Filename>$WS_DIR$\Chip\inc\MK60_dma.h</Filename><XPos>0</XPos><YPos>168</YPos><SelStart>367</SelStart><SelEnd>367</SelEnd></Tab><Tab><Factory>TextEditor</Factory><Filename>$WS_DIR$\Board\src\VCAN_computer.c</Filename><XPos>0</XPos><YPos>36</YPos><SelStart>2491</SelStart><SelEnd>2491</SelEnd></Tab><Tab><Factory>TextEditor</Factory><Filename>$WS_DIR$\App\Inc\MK60_conf.h</Filename><XPos>0</XPos><YPos>144</YPos><SelStart>2487</SelStart><SelEnd>2487</SelEnd></Tab><Tab><Factory>TextEditor</Factory><Filename>$WS_DIR$\Chip\inc\kinetis\MK60DZ10.h</Filename><XPos>0</XPos><YPos>480</YPos><SelStart>802741</SelStart><SelEnd>802741</SelEnd></Tab><Tab><Factory>TextEditor</Factory><Filename>$WS_DIR$\App\MK60_conf.c</Filename><XPos>0</XPos><YPos>277</YPos><SelStart>1705</SelStart><SelEnd>1705</SelEnd></Tab><Tab><Factory>TextEditor</Factory><Filename>$WS_DIR$\App\Inc\MK60_it.h</Filename><XPos>0</XPos><YPos>6</YPos><SelStart>304</SelStart><SelEnd>304</SelEnd></Tab><Tab><Factory>TextEditor</Factory><Filename>$WS_DIR$\..\..\..\..\Program Files (x86)\IAR Systems\Embedded Workbench 6.0\arm\src\lib\dlib\main.h</Filename><XPos>0</XPos><YPos>0</YPos><SelStart>894</SelStart><SelEnd>894</SelEnd></Tab><Tab><Factory>TextEditor</Factory><Filename>$WS_DIR$\Board\Inc\VCAN_OV7725_Eagle.h</Filename><XPos>0</XPos><YPos>28</YPos><SelStart>1694</SelStart><SelEnd>1694</SelEnd></Tab><Tab><Factory>TextEditor</Factory><Filename>$WS_DIR$\Board\src\VCAN_SCCB.c</Filename><XPos>0</XPos><YPos>16</YPos><SelStart>573</SelStart><SelEnd>573</SelEnd></Tab><Tab><Factory>TextEditor</Factory><Filename>$WS_DIR$\Chip\src\MK60_uart.c</Filename><XPos>0</XPos><YPos>383</YPos><SelStart>11828</SelStart><SelEnd>11828</SelEnd></Tab><Tab><Factory>TextEditor</Factory><Filename>$WS_DIR$\Board\src\VCAN_camera.c</Filename><XPos>0</XPos><YPos>0</YPos><SelStart>352</SelStart><SelEnd>352</SelEnd></Tab><Tab><Factory>TextEditor</Factory><Filename>$WS_DIR$\Board\src\VCAN_OV7725_Eagle.c</Filename><XPos>0</XPos><YPos>103</YPos><SelStart>3044</SelStart><SelEnd>3044</SelEnd></Tab><Tab><Factory>TextEditor</Factory><Filename>$WS_DIR$\Chip\inc\common.h</Filename><XPos>0</XPos><YPos>8</YPos><SelStart>464</SelStart><SelEnd>464</SelEnd></Tab><Tab><Factory>TextEditor</Factory><Filename>$WS_DIR$\App\main.c</Filename><XPos>0</XPos><YPos>23</YPos><SelStart>679</SelStart><SelEnd>679</SelEnd></Tab><ActiveTab>32</ActiveTab><Tab><Factory>TextEditor</Factory><Filename>$WS_DIR$\Chip\inc\misc.h</Filename><XPos>0</XPos><YPos>18</YPos><SelStart>618</SelStart><SelEnd>618</SelEnd></Tab></Pane><ActivePane>0</ActivePane><Sizes><Pane><X>1000000</X><Y>1000000</Y></Pane></Sizes><SplitMode>1</SplitMode></Editor>
+    <Positions>
+      
+      
+      
+      
+      
+    <Top><Row0><Sizes><Toolbar-05094a18><key>iaridepm.enu1</key></Toolbar-05094a18></Sizes></Row0><Row1><Sizes/></Row1></Top><Left><Row0><Sizes><Wnd0><Rect><Top>-2</Top><Left>-2</Left><Bottom>444</Bottom><Right>253</Right><x>-2</x><y>-2</y><xscreen>725</xscreen><yscreen>596</yscreen><sizeHorzCX>530747</sizeHorzCX><sizeHorzCY>870073</sizeHorzCY><sizeVertCX>186676</sizeVertCX><sizeVertCY>651095</sizeVertCY></Rect></Wnd0></Sizes></Row0></Left><Right><Row0><Sizes/></Row0></Right><Bottom><Row0><Sizes><Wnd1><Rect><Top>-2</Top><Left>-2</Left><Bottom>196</Bottom><Right>1368</Right><x>-2</x><y>-2</y><xscreen>1370</xscreen><yscreen>198</yscreen><sizeHorzCX>1002928</sizeHorzCX><sizeHorzCY>289051</sizeHorzCY><sizeVertCX>530747</sizeVertCX><sizeVertCY>870073</sizeVertCY></Rect></Wnd1></Sizes></Row0></Bottom><Float><Sizes/></Float></Positions>
+  </Desktop>
+</Workspace>
+
+
