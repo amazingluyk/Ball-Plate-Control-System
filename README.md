@@ -10,7 +10,7 @@ Used cascade PID control include motor position as inner ring and angle as outer
 # 板球控制系统
 关键词：串级PID控制、图像处理
 
-使用了K60、STM33单片机，六轴加速度传感器，摄像头，舵机等。
+基于K60、STM33单片机，六轴加速度传感器，摄像头，舵机等。
 
 K60单片机用于图像处理，主要包括滤波、二值化、螺旋式搜索算法等。
 
